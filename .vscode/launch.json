@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+        "name": "Launch",
+        "type": "go",
+        "request":"launch",
+        //"args": ["21232f297a57a5a743894a0e4a801fc3", "5f4dcc3b5aa765d61d8327deb882cf99", "584ee38a5c3b3ceb5ed7d8620a0c11f0", "21232f297a57a5a743894a0e4a801fc4"],
+        //"args": ["--onlyfound", "--norun", "--file", "./hashes.txt"],
+        "args": ["--file", "./hashes.txt"],
+        //"args":["*4ACFE3202A5FF5CF467898FC58AAB1D615029441"],
+        "program": "${workspaceFolder}\\jhf.go"
+    }]
+}
