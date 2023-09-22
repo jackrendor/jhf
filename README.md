@@ -12,9 +12,16 @@ I was tired of looking up for common hashes values by hand. During CTFs you will
 Install `golang` and then download and build the source code:
 `go install github.com/jackrendor/jhf@latest`
 
+`go get -u github.com/jackrendor/jhf`
+
 On a linux machine, the binary should be located in `~/go/bin/`
 
 On a windows machine, you should be able to run it from the terminal without specifying the path
+
+# Installation errors
+If you have issues with compiling, probably you don't have the required last version of golang
+
+If you don't want to bother with installing golang, you can get the binaries here: [https://github.com/jackrendor/jhf/releases/](https://github.com/jackrendor/jhf/releases/)
 
 # Example
 
