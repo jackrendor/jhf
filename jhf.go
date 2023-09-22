@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/jackrendor/jhf-go/resources"
+	"github.com/jackrendor/jhf/resources"
 )
 
 var bannerString string = `
