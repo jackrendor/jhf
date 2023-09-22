@@ -208,6 +208,9 @@ func HashToolkit_Com(hash string) Hashes {
 }
 
 func Crack(hashes []string) []Hashes {
+	if len(hashes) < 1 {
+		return LoadedHashes
+	}
 	LoadHashes(hashes)
 	solved := Hashes_Com(GetUnsolved())
 	for _, elem := range solved {
