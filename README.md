@@ -5,6 +5,11 @@
 # Jack Hash Finder
 Quick lookup for the original value of an hash
 
+# The project is archived
+Sadly, this project is not gonna be maintaned anymore.
+Websites implemented captchas and some other just straight up closed.
+Thank you for all the support.
+
 # Purpose
 I was tired of looking up for common hashes values by hand. During CTFs you will eventually encounter some hashes. Instead of cracking them on your local machine or fire up a browser and look it up, the script does it for you. It tries some services to see if it's a common and known hash.
 
