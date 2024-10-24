@@ -66,7 +66,7 @@ func Hashes_Com(hashes []string) []Hashes {
 
 	// perform the request
 	respGet, respGetErr := http.DefaultClient.Do(reqGet)
-	if reqGetErr != nil {
+	if respGet != nil {
 		log.Println("[hashes.com]:", respGetErr.Error())
 		return res
 	}
@@ -125,7 +125,7 @@ func Hashes_Com(hashes []string) []Hashes {
 	// Perform lookup http post request
 	respPost, respPostErr := http.DefaultClient.Do(reqPost)
 	if respPostErr != nil {
-		log.Println("[hashes.com] [http.Do]:", reqPostErr.Error())
+		log.Println("[hashes.com] [http.Do]:", respPostErr.Error())
 		return res
 	}
 
